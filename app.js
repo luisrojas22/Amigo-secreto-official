@@ -33,12 +33,12 @@ if(listaGeneral.length===0){
 }else{
     let indice = Math.floor(Math.random() * listaGeneral.length);
     let elegido = listaGeneral.splice(indice, 1)[0];
-/*
+
 //Por si deseamos que reemplaze h2
 document.querySelector("h2").innerHTML = `El amigo secreto es: ${elegido}`
-*/
+
 // Cuando queremos a la alerta
-    alert(`El amigo secreto es: ${elegido}`);
+   // alert(`El amigo secreto es: ${elegido}`);
     mostrarLista();
 }
 }
